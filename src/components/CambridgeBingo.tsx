@@ -76,8 +76,8 @@ export const CambridgeBingo = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-6">
-          <h1 className="text-4xl font-bold text-primary mb-2">Cambridge University Building Bingo</h1>
-          <p className="text-muted-foreground text-lg">Mark the buildings you've visited or worked in to get BINGO!</p>
+          <h1 className="text-4xl font-bold text-primary mb-2">exam venue bingo</h1>
+          <p className="text-muted-foreground text-lg">mark the buildings you've visited to get BINGO!</p>
         </div>
 
         {/* Controls */}
@@ -141,10 +141,10 @@ export const CambridgeBingo = () => {
           <Card className="p-6">
             <h3 className="text-xl font-semibold mb-3">How to Play</h3>
             <ul className="text-left space-y-2 text-muted-foreground">
-              <li>• Click on buildings you've visited or worked in to mark them</li>
+              <li>• Click on buildings you've visited to mark them</li>
               <li>• Get a complete row, column, or diagonal to win BINGO!</li>
-              <li>• Use different grids for multiple players or games</li>
-              <li>• Print this page for a physical game on A4 landscape paper</li>
+              <li>• Different grids available for multiple players</li>
+              <li>• Print this page for a game on A4 paper</li>
               <li>• "Day-off" spaces are free spaces - mark them anytime!</li>
             </ul>
           </Card>
