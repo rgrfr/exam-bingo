@@ -72,16 +72,16 @@ export const CambridgeBingo = () => {
   if (grids.length === 0) return <div>Loading...</div>;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 print:bg-white print:p-2">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-6">
-          <h1 className="text-4xl font-bold text-primary mb-2">exam venue bingo</h1>
-          <p className="text-muted-foreground text-lg">mark the buildings you've visited to get BINGO!</p>
+        <div className="text-center mb-6 print:mb-2">
+          <h1 className="text-4xl font-bold text-primary mb-2 print:text-2xl print:mb-1">exam venue bingo</h1>
+          <p className="text-muted-foreground text-lg print:hidden">mark the buildings you've visited to get BINGO!</p>
         </div>
 
-        {/* Controls */}
-        <div className="flex flex-wrap justify-center gap-4 mb-6">
+        {/* Controls - Hidden on print */}
+        <div className="flex flex-wrap justify-center gap-4 mb-6 print:hidden">
           <div className="flex gap-2">
             {[0, 1, 2, 3].map((gridIndex) => (
               <Button
@@ -111,9 +111,9 @@ export const CambridgeBingo = () => {
           </div>
         </div>
 
-        {/* Bingo Status */}
+        {/* Bingo Status - Hidden on print */}
         {completedLines.length > 0 && (
-          <div className="text-center mb-6">
+          <div className="text-center mb-6 print:hidden">
             <Card className="inline-block p-4 bg-green-50 border-green-200">
               <h2 className="text-2xl font-bold text-green-700 mb-2">🎉 BINGO! 🎉</h2>
               <div className="flex flex-wrap justify-center gap-2">
@@ -136,8 +136,8 @@ export const CambridgeBingo = () => {
           />
         </div>
 
-        {/* Instructions */}
-        <div className="mt-8 text-center max-w-2xl mx-auto">
+        {/* Instructions - Hidden on print */}
+        <div className="mt-8 text-center max-w-2xl mx-auto print:hidden">
           <Card className="p-6">
             <h3 className="text-xl font-semibold mb-3">How to Play</h3>
             <ul className="text-left space-y-2 text-muted-foreground">
