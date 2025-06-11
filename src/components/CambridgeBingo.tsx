@@ -77,7 +77,7 @@ export const CambridgeBingo = () => {
         {/* Header */}
         <div className="text-center mb-6 print:mb-2">
           <h1 className="text-4xl font-bold text-primary mb-2 print:text-2xl print:mb-1">exam venue bingo</h1>
-          <p className="text-muted-foreground text-lg print:hidden">mark the buildings you've visited to and then scream BINGO!</p>
+          <p className="text-muted-foreground text-lg print:hidden">mark the buildings you've visited, and don't scream BINGO till the examination is over.</p>
         </div>
 
         {/* Controls - Hidden on print */}
