@@ -1,28 +1,33 @@
-# Welcome to your Lovable project
+ <h1 align="center"> Exam invigilators games</h1>
 
-## Project info
+With hours to pass during the exam season, an examination invigilator can't help but think up things to make. These little apps however don't pass the time nor do they make clocks run faster. They just happened to get made as I got myself into apps thanks to LOVABLE.DEV. Each game has its own repo but the direct links to all three games can be found below:
 
-**URL**: https://lovable.dev/projects/75b1ec2e-9536-4ef7-93dc-3ca129f51728
+## Wheres the Proctor? (based on Where's Waldo) 
+The proctor is supposed to visit you - where are they right now? https://proctor-peek-a-boo.lovable.app/
+## Exam venue bingo  
+There are 40 exam venues in this town - how you worked in enough to score a bingo line: https://exam-venue-bingo.lovable.app/
+## Exam venue word search 
+Exam venues can be found all over the city. Can you find your building in this Word search puzzle? https://exam-building-quest.lovable.app/
 
-## How can I edit this code?
+<h1 /h1>
+<h1 /h1>
+<h1 /h1>
+<h1 align="center"> This is a Lovable project</h1>
 
-There are several ways of editing your application.
+## There are several ways of editing your (own) Lovable applications:
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/75b1ec2e-9536-4ef7-93dc-3ca129f51728) and start prompting.
+As long as this is yours visit the [Lovable Project] and start prompting. Changes made via Lovable will be committed automatically to your repo.
 
-Changes made via Lovable will be committed automatically to this repo.
+**Use your IDE**
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable. The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
+```sh<img width="506" height="253" alt="og-image" src="https://github.com/user-attachments/assets/0a617cd1-f216-4fe8-b08d-50362b0480d4" />
+<img width="506" height="253" alt="og-image" src="https://github.com/user-attachments/assets/8fdfc95c-599c-4cd2-81d6-350ee1d441e7" />
 
-```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
@@ -60,14 +65,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/75b1ec2e-9536-4ef7-93dc-3ca129f51728) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
