@@ -18,16 +18,26 @@ export const BingoCell: React.FC<BingoCellProps> = ({ building, isMarked, onClic
   
   return (
     <Card 
+      role="button"
+      tabIndex={0}
+      aria-pressed={isMarked}
+      aria-label={`${building.name}${isMarked ? ', marked' : ''}`}
       className={`
         relative cursor-pointer transition-all duration-200 transform hover:scale-105
         ${isMarked 
           ? 'bg-green-100 border-green-400 shadow-md' 
           : 'bg-white hover:bg-blue-50 border-gray-200'
         }
-        min-h-[80px] h-20 w-full flex flex-col items-center justify-center p-1
+        min-h-[80px] h-20 w-full flex flex-col items-center justify-center p-1 focus:outline-none focus:ring-2 focus:ring-primary
         print:min-h-[60px] print:h-16 print:hover:scale-100 print:shadow-none
       `}
       onClick={onClick}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onClick();
+        }
+      }}
     >
       {isMarked && (
         <div className="absolute inset-0 bg-green-500 opacity-20 rounded-lg"></div>

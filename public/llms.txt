@@ -1,0 +1,9 @@
+# Exam Venue Bingo
+
+> A printable 7x7 bingo game centred on lesser-known Cambridge University buildings. Mark off venues you've visited or worked in and aim for a full line to call BINGO.
+
+The site is a single-page web app. Choose between four shuffled grids, mark cells you've visited, and print the grid on A4 landscape paper for an offline game.
+
+## Pages
+
+- [Home](/): Play the 7x7 Cambridge buildings bingo grid online or print it for paper play.

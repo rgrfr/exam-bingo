@@ -139,7 +139,7 @@ export const CambridgeBingo = () => {
         {/* Instructions - Hidden on print */}
         <div className="mt-8 text-center max-w-2xl mx-auto print:hidden">
           <Card className="p-6">
-            <h3 className="text-xl font-semibold mb-3">How to Play</h3>
+            <h2 className="text-xl font-semibold mb-3">How to Play</h2>
             <ul className="text-left space-y-2 text-muted-foreground">
               <li>• Click on buildings you've visited to mark them</li>
               <li>• Get a complete row, column, or diagonal to win BINGO!</li>
