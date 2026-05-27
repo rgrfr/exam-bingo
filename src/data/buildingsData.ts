@@ -1,7 +1,6 @@
 
 export const buildingsData = [
   { name: 'Babbage LT', type: 'lecture-room' },
-  { name: 'Biffen LT', type: 'lecture-room' },
   { name: 'Criminology', type: 'sherlock-holmes' },
   { name: 'Business School', type: 'judge' },
   { name: 'Mathematical Sciences', type: 'mathematics' },
@@ -39,8 +38,10 @@ export const buildingsData = [
   { name: 'Titan TR', type: 'classroom' },
   { name: 'University Centre', type: 'restaurant' },
   { name: 'University Printing', type: 'printing' },
-  { name: 'Sports Hall', type: 'sports' },
+  { name: 'Geography', type: 'map' },
+  { name: 'West Hub', type: 'sports' },
   { name: 'William Gates Building', type: 'computer' }
+
 ];
 
 // Create day-off spaces
